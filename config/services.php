@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'catapi' => [
+        'key' => env('CAT_API_KEY'),
+        'endpoint' => 'https://api.thecatapi.com/v1/images/search',
+    ],    
+
 ];
